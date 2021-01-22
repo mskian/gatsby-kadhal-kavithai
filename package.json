@@ -1,0 +1,49 @@
+{
+  "name": "gatsby-kadhal-kavithai",
+  "description": "Tamil SMS Blog - Get Random Kadhal kavithai and Tamil Love Quotes.",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Santhosh Veer",
+  "license": "MIT",
+  "keywords": [
+    "tamil",
+    "kavithai",
+    "quotes",
+    "sms"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bulma": "^0.9.1",
+    "gatsby": "^2.31.1",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.11.0",
+    "gatsby-plugin-offline": "^3.9.0",
+    "gatsby-remark-a11y-emoji": "^1.1.0",
+    "react": "^17.0.1",
+    "react-awesome-reveal": "^3.7.0",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.1",
+    "react-h5-audio-player": "^3.5.0",
+    "react-helmet": "^6.1.0",
+    "react-toastify": "^6.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskian/gatsby-kadhal-kavithai"
+  },
+  "bugs": {
+    "url": "https://github.com/mskian/gatsby-kadhal-kavithai/issues"
+  }
+}

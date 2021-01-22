@@ -1,0 +1,5 @@
+# Netlify redirects file, edit with your domain
+# https://www.netlify.com/docs/redirects/
+
+https://kadhal.netlify.app/* https://kadhal.tamilsms.blog/:splat 301!
+http://kadhal.netlify.app/* https://kadhal.tamilsms.blog/:splat 301!
