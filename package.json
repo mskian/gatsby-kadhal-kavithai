@@ -27,12 +27,10 @@
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-manifest": "^2.11.0",
     "gatsby-plugin-offline": "^3.9.0",
-    "gatsby-remark-a11y-emoji": "^1.1.0",
+    "gatsby-plugin-preconnect": "^1.1.54",
     "react": "^17.0.1",
-    "react-awesome-reveal": "^3.7.0",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.1",
-    "react-h5-audio-player": "^3.5.0",
     "react-helmet": "^6.1.0",
     "react-toastify": "^6.2.0"
   },

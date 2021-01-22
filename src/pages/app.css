@@ -89,11 +89,11 @@ p {
 	display: flex;
 	flex-grow: 0.3;
   font-family: 'Baloo Thambi 2', cursive;
-	font-weight: 800;
-	font-size: 15px;
+	font-weight: 700;
+	font-size: 13px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	border-radius: 32px;
-	padding: 8px;
+	padding: 10px;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;

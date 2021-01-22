@@ -37,5 +37,15 @@ module.exports = {
         lang: "en",
       },
     },
+    {
+      resolve: "gatsby-plugin-preconnect",
+      options: {
+        domains: [
+          "https://fonts.googleapis.com",
+          "https://fonts.gstatic.com",
+          "https://app.santhoshveer.com",
+        ],
+      },
+    },
   ],
 }

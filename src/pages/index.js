@@ -2,12 +2,9 @@ import React, { Component } from "react"
 import "bulma/css/bulma.min.css"
 import "./app.css"
 import axios from "axios"
-import { Fade } from "react-awesome-reveal"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import { CopyToClipboard } from "react-copy-to-clipboard"
-import AudioPlayer from "react-h5-audio-player"
-import "react-h5-audio-player/lib/styles.css"
 import { Helmet } from "react-helmet"
 
 class RetrieveList extends Component {
@@ -129,7 +126,7 @@ class RetrieveList extends Component {
                   onClick={this.getNewQuote}
                   disabled={this.state.isLoading}
                 >
-                  {this.state.isLoading ? "Loading..." : "🔄 Random kavithai"}
+                  {this.state.isLoading ? "Loading..." : "🔄 Random"}
                 </button>
                 <ToastContainer />
                 <CopyToClipboard
@@ -139,55 +136,37 @@ class RetrieveList extends Component {
                   onCopy={() => this.setState({ copied: true })}
                 >
                   <button
-                    className="button is-danger read-random"
+                    className="button is-link read-random"
                     onClick={this.Copykavithai}
                     disabled={this.state.isLoading}
                   >
-                    {this.state.isLoading ? "Loading..." : "📝 Copy kavithai"}
+                    {this.state.isLoading ? "Loading..." : "📝 Copy"}
                   </button>
                 </CopyToClipboard>
               </div>
               <br />
               <br />
-              <h2
-                className="has-text-weight-bold has-text-centered"
-                style={{ color: "#eaac7f" }}
-              >
-                Song of the day{" "}
-                <span role="img" aria-label="Musical Keyboard">
-                  🎹
-                </span>
-              </h2>
-              <br />
-              <AudioPlayer
-                src="https://san-movies.b-cdn.net/videos/songoftheday.mp3"
-                showJumpControls={false}
-              />
-              <br />
-              <br />
               <hr />
-              <Fade>
-                <p
-                  style={{ color: "#9dad7f" }}
-                  className="has-text-weight-bold has-text-centered"
-                >
-                  தமிழ் எஸ் எம் எஸ்{" "}
-                  <span role="img" aria-label="Yello Heart">
-                    💛
-                  </span>
-                  <br />
-                  PWA Web App from the Creator of tamilsms.blog - Built using
-                  GatsbyJS <br />
-                  <br />
-                  <img
-                    src="./gatsby.png"
-                    loading="lazy"
-                    height="40"
-                    width="40"
-                    alt="Tamil SMS"
-                  />
-                </p>
-              </Fade>
+              <p
+                style={{ color: "#9dad7f" }}
+                className="has-text-weight-bold has-text-centered"
+              >
+                தமிழ் எஸ் எம் எஸ்{" "}
+                <span role="img" aria-label="Yello Heart">
+                  💛
+                </span>
+                <br />
+                PWA Web App from the Creator of tamilsms.blog - Built using
+                GatsbyJS <br />
+                <br />
+                <img
+                  src="./react.png"
+                  loading="lazy"
+                  height="40"
+                  width="40"
+                  alt="Tamil SMS"
+                />
+              </p>
               <br />
               <br />
             </div>
