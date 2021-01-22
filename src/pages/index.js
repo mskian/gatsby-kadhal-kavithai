@@ -28,7 +28,7 @@ class RetrieveList extends Component {
       draggable: true,
       progress: undefined,
     })
-    axios.get("https://app.santhoshveer.com/kadhal.php").then(res => {
+    axios.get("https://app.santhoshveer.com/sam.php").then(res => {
       const tamilsms = res.data
       this.setState({ isLoading: false, persons: tamilsms })
     })
