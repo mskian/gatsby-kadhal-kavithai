@@ -108,6 +108,7 @@ class RetrieveList extends Component {
                   💗
                 </span>
               </h1>
+              <br />
               {this.state.isLoading ? (
                 ""
               ) : (
