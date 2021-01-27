@@ -149,8 +149,14 @@ class RetrieveList extends Component {
               <br />
               <div className="subscribe-form">
                 <p className="has-text-dark has-text-weight-medium has-text-centered">
-                  Our Free Telegram Bot 🤖 - Get Random Tamil kavithai, Tamil
-                  Quotes and Kadhal kavithai 💜
+                  Our Free Telegram Bot{" "}
+                  <span role="img" aria-label="robot">
+                    🤖
+                  </span>{" "}
+                  - Get Random Tamil kavithai, Tamil Quotes and Kadhal kavithai{" "}
+                  <span role="img" aria-label="heart">
+                    💜
+                  </span>
                 </p>
                 <a
                   href="https://telegram.me/tamilsms_bot"
