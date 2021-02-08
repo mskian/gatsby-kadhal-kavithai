@@ -181,7 +181,7 @@ footer p {
   font-family: 'Baloo Thambi 2', cursive;
 }
 .Toastify__toast-body {
-  font-family: 'Baloo Thambi 2', cursive;;
+  font-family: 'Baloo Thambi 2', cursive;
 }
 .button-link {
   display: inline-block;
@@ -204,7 +204,7 @@ footer p {
   -webkit-font-smoothing: antialiased !important;
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
-  font-family: 'Mukta Malar', sans-serif;
+  font-family: 'Baloo Thambi 2', cursive;
 }
 .button-link:hover {
 background: linear-gradient(#36a6e2,#29a0e0 60%,#29a0e0 90%,#4fb7f0);

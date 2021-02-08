@@ -19,7 +19,7 @@ class RetrieveList extends Component {
     this.getQuote()
   }
   getQuote() {
-    toast.dark("⏏ Kavithai Updated", {
+    toast.dark("🍟 Kavithai Updated", {
       position: "top-right",
       autoClose: 800,
       hideProgressBar: true,
