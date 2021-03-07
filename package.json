@@ -27,7 +27,7 @@
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
-    "gatsby-plugin-preconnect": "^1.1.54",
+    "gatsby-plugin-preconnect": "^1.2.0",
     "react": "^17.0.1",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.1",
