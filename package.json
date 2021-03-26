@@ -28,9 +28,9 @@
     "gatsby-plugin-manifest": "^3.1.0",
     "gatsby-plugin-offline": "^4.1.0",
     "gatsby-plugin-preconnect": "^1.2.0",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-copy-to-clipboard": "^5.0.3",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-toastify": "^7.0.3"
   },
