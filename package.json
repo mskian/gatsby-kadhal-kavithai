@@ -21,7 +21,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^0.26.1",
     "bulma": "^0.9.3",
     "gatsby": "^4.4.0",
     "gatsby-plugin-html-attributes": "^1.0.5",
