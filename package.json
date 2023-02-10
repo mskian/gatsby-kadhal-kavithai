@@ -35,7 +35,7 @@
     "react-toastify": "^9.1.1"
   },
   "devDependencies": {
-    "prettier": "2.8.3"
+    "prettier": "2.8.4"
   },
   "repository": {
     "type": "git",
