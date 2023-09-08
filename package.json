@@ -23,7 +23,7 @@
   "dependencies": {
     "axios": "^1.5.0",
     "bulma": "^0.9.4",
-    "gatsby": "^5.12.1",
+    "gatsby": "^5.12.4",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-manifest": "^5.12.0",
     "gatsby-plugin-offline": "^6.12.0",
